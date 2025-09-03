@@ -1,0 +1,52 @@
+{
+  "id": "00000000-0000-0000-0000-000000000001",
+  "auditId": "AUD-1756937664501",
+  "timestamp": "2025-09-03T22:14:24.501Z",
+  "name": "teste",
+  "summary": {
+    "included": 0,
+    "excluded": 1,
+    "modified": 3,
+    "type_changed": 0,
+    "total": 4
+  },
+  "events": [
+    {
+      "path": "cliente",
+      "field": "cliente",
+      "displayName": "Nome do Cliente",
+      "action": "modified",
+      "old": "Ana Paula",
+      "new": "Ana"
+    },
+    {
+      "path": "pef",
+      "field": "pef",
+      "displayName": "PEF",
+      "action": "modified",
+      "old": 15,
+      "new": 10
+    },
+    {
+      "path": "novo",
+      "field": "novo",
+      "displayName": "novo",
+      "action": "excluded",
+      "old": true,
+      "new": null
+    },
+    {
+      "path": "itens",
+      "field": "itens",
+      "displayName": "itens",
+      "action": "modified",
+      "old": [],
+      "new": [
+        {
+          "id": 1,
+          "qtd": 2
+        }
+      ]
+    }
+  ]
+}

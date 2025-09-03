@@ -1,0 +1,5 @@
+{
+  "cliente": "Ana",
+  "pef": 10,
+  "itens": [{ "id": 1, "qtd": 2 }]
+}
